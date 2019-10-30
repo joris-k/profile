@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+
+
+.image-round {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #3c4245
+}
+
+.header {
+  background-color: rgb(230, 230, 230);
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 34px 0;
+  width: 66%;
+  margin: 20px auto;
+  box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.2)
+}
+
+.footer {
+  background-color: rgb(230, 230, 230);
+  border-radius: 4px;
+  width: 66%;
+  margin: 20px auto;
+  box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.2)
+}
+
+.button-round {
+  background-color: #5f6769;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #719192
+}
+
+.button-round:hover {
+  background-color: #719192;
+  color: white;
+  transition: ease 0.3s;
+}
+
+#follow-me-buttons li {
+  display: inline-block;
+  list-style: none;
+}
+
+#follow-me-buttons {
+  padding: 0;
+}
+
+
+.follow-icon {
+  color: #719192;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.follow-icon:hover {
+  padding: 3px;
+  border-radius: 4px;
+  background-color: #719192;
+  color: white;
+  transition: ease 0.3s;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
